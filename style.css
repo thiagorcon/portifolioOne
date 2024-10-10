@@ -1,0 +1,124 @@
+
+body {
+background-color: #EDEDED;
+width: 100vw;
+height: 5020px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header{
+     width: 1136px;
+     height: 88px;
+     /* background-color: white; */
+     display: flex;
+     justify-content: space-around;     
+     align-items: center;
+}
+.topo{
+     width: 134px;
+     height: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.topo img{
+     width: 10%;
+}
+
+nav ul{
+     width: 642px;
+     height: 19px;
+     display: flex;
+     gap: 50px;
+}
+
+nav li{
+     white-space: nowrap
+}
+
+
+/*  area do main */
+
+.areaMain{
+     width: 1136px;
+     height: 88px;
+     /* background-color: white; */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;     
+     align-items: center;
+}
+
+.apresentacao{
+     /* background-color: #ffffff; */
+     margin-top: 10px;
+     width: 1136px;
+     height: 368px;
+     display: flex;
+     
+     justify-content: space-around;
+     align-items: center;
+     
+}
+
+.apresentacao__texto{
+     width: 751px;
+     height: 307px;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     margin-top: 150px;
+     
+     
+}
+
+.apresentacao__texto h1{
+     font-weight: 600;
+     font-size: 45px;
+     text-align: justify;
+}
+
+.fotoPerfil{
+     width: 250px;
+     height: 75%;
+     border-radius: 50%;
+}
+
+/* area sobre mim */
+
+.areaSobreMim{
+     background-color: #EAF2FD;
+     width: 100vw;
+     height: 383px;
+     display: flex;
+     justify-content: space-around;
+}
+
+.sobreMim__areaTexto{
+     width: 1036px;
+     height: 368px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-around;  */
+     margin-top: 50px;
+     gap: 50px;
+     padding: 0 82px;
+        
+}
+
+.sobreMim__areaTexto h1{
+     font-size: xx-large;
+     
+     font-weight: bold;
+}
+
+/*  Area skills e hobbies */
+
+
+
+
+
+
